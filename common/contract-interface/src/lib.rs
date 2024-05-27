@@ -1,7 +1,5 @@
 use ethers::prelude::abigen;
 
-// run `cargo doc -p contract-interface --open` to read struct definition
-
 #[cfg(not(feature = "dev"))]
 abigen!(
     ZgsFlow,
